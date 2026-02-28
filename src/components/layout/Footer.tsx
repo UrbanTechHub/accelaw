@@ -121,10 +121,10 @@ export function Footer() {
                 Privacy Policy
               </Link>
               <Link
-                to="/impressum"
+                to="/terms"
                 className="text-sm text-primary-foreground/50 hover:text-accent transition-colors"
               >
-                Impressum
+                Terms of Service
               </Link>
             </div>
           </div>

@@ -40,7 +40,7 @@ const Index = () => {
             <p className="text-body-lg text-primary-foreground/70 mb-12 max-w-2xl">
               At Acce Law Chambers, we combine deep legal expertise with a 
               client-focused approach to deliver exceptional outcomes for individuals 
-              and organizations across Germany and Europe.
+              and organizations across Australia and the Asia-Pacific.
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap gap-4">
               <Button
@@ -99,18 +99,18 @@ const Index = () => {
                   About Our Firm
                 </p>
                 <h2 className="heading-section text-foreground mb-8">
-                  A Legacy of Legal Excellence in Germany
+                  A Legacy of Legal Excellence in Australia
                 </h2>
                 <p className="text-body-lg text-muted-foreground mb-6 leading-relaxed">
                   For over three decades, Acce Law Chambers has been at the forefront of 
-                  legal practice in Frankfurt. Our attorneys bring unparalleled expertise 
+                  legal practice in Sydney. Our attorneys bring unparalleled expertise 
                   and dedication to every matter, from complex corporate transactions to 
                   high-stakes litigation.
                 </p>
                 <p className="text-body text-muted-foreground mb-10 leading-relaxed">
                   We pride ourselves on our commitment to excellence, our innovative 
                   approach to legal challenges, and our unwavering dedication to achieving 
-                  the best possible outcomes for our clients across Germany and Europe.
+                  the best possible outcomes for our clients across Australia and the Asia-Pacific.
                 </p>
                 <Button asChild variant="outline" className="rounded-full px-6">
                   <Link to="/about">
