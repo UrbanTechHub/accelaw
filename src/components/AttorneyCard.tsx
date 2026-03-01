@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, ArrowUpRight } from "lucide-react";
+import { Mail, ArrowUpRight } from "lucide-react";
 import { Attorney } from "@/data/attorneys";
 import { cn } from "@/lib/utils";
 
@@ -46,14 +46,6 @@ export function AttorneyCard({ attorney, className }: AttorneyCardProps) {
             >
               <Mail className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0" />
               <span className="truncate">{attorney.email}</span>
-            </a>
-            <a
-              href={`tel:${attorney.phone}`}
-              onClick={(e) => e.stopPropagation()}
-              className="flex items-center gap-2 sm:gap-3 text-xs sm:text-sm text-muted-foreground"
-            >
-              <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0" />
-              {attorney.phone}
             </a>
           </div>
         </div>

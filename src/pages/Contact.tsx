@@ -81,10 +81,10 @@ export default function Contact() {
                     <div>
                       <h3 className="font-medium text-foreground mb-2">Phone</h3>
                       <a
-                        href="tel:+61292678800"
+                        href="tel:+19786414537"
                         className="text-sm sm:text-base text-muted-foreground"
                       >
-                        +61 2 9267 8800
+                        +1 (978) 641-4537
                       </a>
                     </div>
                   </div>
@@ -99,6 +99,13 @@ export default function Contact() {
                         className="text-sm sm:text-base text-muted-foreground"
                       >
                         info@accelawchambers.com
+                      </a>
+                      <br />
+                      <a
+                        href="mailto:ACCECHAMBER@OUTLOOK.COM"
+                        className="text-sm sm:text-base text-muted-foreground"
+                      >
+                        accechamber@outlook.com
                       </a>
                     </div>
                   </div>
