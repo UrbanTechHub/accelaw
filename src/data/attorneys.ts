@@ -13,7 +13,6 @@ export interface Attorney {
   title: string;
   practiceAreas: string[];
   email: string;
-  phone: string;
   bio: string;
   education: string[];
   admissions: string[];
@@ -30,7 +29,6 @@ export const attorneys: Attorney[] = [
     title: "Managing Partner",
     practiceAreas: ["Corporate Law", "Mergers & Acquisitions"],
     email: "a.mueller@accelawchambers.com",
-    phone: "+61 2 9267 8800",
     bio: "Dr. Anna Müller is the Managing Partner of Acce Law Chambers and a nationally recognized authority in corporate law and mergers & acquisitions. With over 25 years of distinguished practice, she has advised on transactions totaling more than $40 billion, establishing herself as one of Australia's most sought-after corporate attorneys. Dr. Müller founded the firm's M&A practice in 1998 and has since grown it into one of the most respected teams in the Sydney legal market. Her expertise spans cross-border acquisitions, joint ventures, corporate restructurings, and private equity transactions. She is known for her strategic thinking, meticulous attention to detail, and ability to navigate complex multi-jurisdictional deals. Dr. Müller regularly advises ASX 200 companies, major private equity funds, and international corporations on their most critical transactions. She is frequently invited to speak at international legal conferences and has authored numerous publications on Australian corporate law reforms.",
     education: ["Dr. jur., University of Sydney (summa cum laude)", "LL.M., Harvard Law School"],
     admissions: ["Australia (1994)", "New York (1996)"],
@@ -56,7 +54,6 @@ export const attorneys: Attorney[] = [
     title: "Senior Partner",
     practiceAreas: ["Finance Law", "Cryptocurrency & Blockchain"],
     email: "t.weber@accelawchambers.com",
-    phone: "+61 2 9267 8801",
     bio: "Thomas Weber is a Senior Partner and head of the Finance and Cryptocurrency practice at Acce Law Chambers. With over 25 years of experience in financial regulations and an exceptional track record in emerging digital asset law, he has established himself as Australia's foremost authority on cryptocurrency and blockchain legal matters. Thomas has won landmark cases that have shaped the regulatory landscape for digital assets across the Asia-Pacific region, earning him a reputation as the go-to attorney for crypto exchanges, DeFi platforms, and institutional investors entering the digital asset space. His practice spans complex financial litigation, cryptocurrency regulatory defense, ICO and token structuring, and cross-border compliance for fintech companies. Thomas has successfully defended clients in over 50 cryptocurrency-related disputes, achieving favorable outcomes in cases involving exchange hacks, smart contract disputes, and regulatory enforcement actions by ASIC and Australian authorities. He regularly advises major Australian banks, international hedge funds, and leading cryptocurrency exchanges on regulatory compliance and litigation strategy. Thomas is a sought-after speaker at global fintech conferences and has authored influential publications on the intersection of traditional finance law and blockchain technology.",
     education: ["Staatsexamen, Ludwig-Maximilians-Universität München (distinction)", "LL.M., Cambridge University", "Certified Blockchain Expert (CBE)"],
     admissions: ["Australia (1996)"],
@@ -82,7 +79,6 @@ export const attorneys: Attorney[] = [
     title: "Partner",
     practiceAreas: ["Real Estate", "Finance"],
     email: "k.schmidt@accelawchambers.com",
-    phone: "+61 2 9267 8802",
     bio: "Dr. Katrin Schmidt is a Partner specializing in real estate transactions and structured finance at Acce Law Chambers. Over the past 18 years, she has established herself as one of the leading real estate lawyers in Australia, having advised on property transactions with an aggregate value exceeding $15 billion. Her practice encompasses the full spectrum of real estate matters, including acquisitions and dispositions of commercial properties, development projects, sale-and-leaseback transactions, and complex financing structures. Dr. Schmidt represents a prestigious client base that includes institutional investors, sovereign wealth funds, REITs, leading property developers, and major Australian and international banks. She is particularly renowned for her expertise in structuring tax-efficient real estate investments and navigating the regulatory complexities of Australian property law. Dr. Schmidt also advises on real estate aspects of corporate M&A transactions and restructurings. She serves on the advisory board of the Property Council of Australia and regularly publishes on developments in Australian real estate law.",
     education: ["Dr. jur., Humboldt-Universität zu Berlin", "MBA, INSEAD"],
     admissions: ["Australia (2006)"],
@@ -108,7 +104,6 @@ export const attorneys: Attorney[] = [
     title: "Partner",
     practiceAreas: ["Intellectual Property", "Technology"],
     email: "g.stephens@accelawchambers.com",
-    phone: "+61 2 9267 8803",
     bio: "Geoff Stephens is a Partner and head of the Intellectual Property and Technology practice at Acce Law Chambers. With over 15 years of specialized experience, he has built one of Sydney's premier IP practices, advising technology companies, startups, and established enterprises on the full range of intellectual property matters. His expertise spans patent prosecution and litigation, trademark protection, trade secret disputes, licensing negotiations, and technology transactions throughout the Asia-Pacific. Geoff has a particular focus on the intersection of IP law and emerging technologies, including artificial intelligence, blockchain, and digital platforms. He regularly represents clients before IP Australia, and in IP litigation before Australian courts. Before joining Acce Law Chambers, Geoff spent three years at a leading Silicon Valley law firm, which gives him unique insight into the technology industry and US-Australian cross-border IP matters. He is a sought-after advisor for tech startups seeking to protect their innovations and scale across Asia-Pacific markets.",
     education: ["Staatsexamen, Universität Heidelberg", "LL.M., Stanford Law School"],
     admissions: ["Australia (2009)", "IP Australia (2011)"],
@@ -134,7 +129,6 @@ export const attorneys: Attorney[] = [
     title: "Partner",
     practiceAreas: ["Employment Law", "Labor Relations"],
     email: "c.bauer@accelawchambers.com",
-    phone: "+61 2 9267 8804",
     bio: "Christina Bauer is a Partner specializing in employment law and labor relations at Acce Law Chambers. With 16 years of dedicated practice in this field, she has become one of the most trusted employment law advisors to major Australian corporations. Her practice covers the full spectrum of employment matters, including individual employment contracts, executive compensation, workforce restructurings, enterprise bargaining, collective agreements, and employment litigation. Christina regularly advises ASX 200 companies and international corporations on their most sensitive employment issues, including large-scale redundancy programs, discrimination claims, and whistleblower matters. She has particular expertise in the employment aspects of M&A transactions, having advised on the labor law implications of dozens of major deals. Christina is known for her pragmatic approach, deep understanding of Australian employment law intricacies, and ability to find creative solutions to complex workforce challenges. She frequently conducts management training sessions on employment law compliance and speaks at industry conferences on emerging trends in Australian employment law.",
     education: ["Staatsexamen, Freie Universität Berlin", "LL.M., University of London (King's College)"],
     admissions: ["Australia (2008)"],
@@ -160,7 +154,6 @@ export const attorneys: Attorney[] = [
     title: "Counsel",
     practiceAreas: ["Tax", "Estate Planning"],
     email: "s.klein@accelawchambers.com",
-    phone: "+61 2 9267 8805",
     bio: "Dr. Stefan Klein is Counsel in the Tax and Private Client practice at Acce Law Chambers. With over 12 years of specialized experience, he has established himself as a leading advisor to high-net-worth individuals, family offices, and entrepreneurs on sophisticated tax planning and wealth transfer strategies. His practice encompasses Australian and international tax planning, estate and succession planning, family governance structures, charitable trusts, and tax-efficient investment structuring. Dr. Klein holds dual qualifications as a lawyer and certified tax advisor, giving him a comprehensive perspective on complex wealth planning matters. He regularly advises families with generational wealth on structuring their holdings for tax efficiency and seamless succession, while preserving family harmony. Dr. Klein has particular expertise in establishing and managing Australian trusts and foundations for both charitable and private purposes. He also advises on the tax implications of real estate investments and corporate restructurings. He is a frequent speaker at wealth management conferences and has authored numerous articles on Australian tax reform and international tax developments.",
     education: ["Dr. jur., Universität zu Köln", "Certified Tax Advisor (Steuerberater)"],
     admissions: ["Australia (2012)", "Certified Tax Advisor (2014)"],
@@ -186,7 +179,6 @@ export const attorneys: Attorney[] = [
     title: "Associate",
     practiceAreas: ["Corporate Law", "Private Equity"],
     email: "l.fischer@accelawchambers.com",
-    phone: "+61 2 9267 8806",
     bio: "Lisa Fischer is an Associate in the Corporate and Private Equity practice at Acce Law Chambers. Since joining the firm in 2019, she has quickly distinguished herself as a rising star in Sydney's corporate law community. Her practice focuses on private equity transactions, including leveraged buyouts, growth equity investments, add-on acquisitions, and exit transactions. Lisa also advises on fund formation matters, portfolio company governance, and regulatory compliance for financial sponsors. She has been involved in numerous significant transactions, working closely with private equity sponsors and their portfolio companies throughout the deal cycle. Lisa brings a strong academic foundation combined with practical commercial awareness to her work. Before joining Acce Law Chambers, she gained valuable experience at a leading New York law firm, giving her exposure to US market practices and cross-border deal dynamics. She is known for her dedication, analytical rigor, and ability to manage complex workstreams efficiently. Lisa is an active member of the Australian Private Equity and Venture Capital Association.",
     education: ["Staatsexamen, Bucerius Law School (with honors)", "LL.M., NYU School of Law"],
     admissions: ["Australia (2019)"],
@@ -210,7 +202,6 @@ export const attorneys: Attorney[] = [
     title: "Associate",
     practiceAreas: ["Litigation", "Securities"],
     email: "j.schneider@accelawchambers.com",
-    phone: "+61 2 9267 8807",
     bio: "Jan Schneider is an Associate in the Litigation and Securities practice at Acce Law Chambers. Since joining the firm in 2020, he has developed a focused practice in securities litigation, regulatory enforcement, and complex commercial disputes. Jan regularly represents public companies, boards of directors, and individual executives in ASIC investigations, securities class actions, and shareholder disputes. He has particular expertise in defending against insider trading allegations, market manipulation claims, and disclosure violations. Jan also advises on corporate governance matters and conducts internal investigations for clients facing regulatory scrutiny. His analytical approach and attention to detail have made him a valuable member of the litigation team on several high-profile matters. Before joining Acce Law Chambers, Jan completed a judicial clerkship at the Sydney Federal Court, where he gained firsthand insight into judicial decision-making in commercial cases. He combines this practical courtroom perspective with deep knowledge of Australian securities regulations. Jan is an active participant in securities law forums and has published articles on recent developments in Australian capital markets regulation.",
     education: ["Staatsexamen, Ruprecht-Karls-Universität Heidelberg", "LL.M., UC Berkeley School of Law"],
     admissions: ["Australia (2020)"],

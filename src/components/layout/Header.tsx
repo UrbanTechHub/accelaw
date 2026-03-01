@@ -81,7 +81,7 @@ export function Header() {
           {/* CTA */}
           <div className="hidden lg:flex lg:items-center lg:gap-6">
             <a
-              href="tel:+61292678800"
+              href="tel:+19786414537"
               className={cn(
                 "flex items-center gap-2 text-sm transition-colors",
                 scrolled 
@@ -92,7 +92,7 @@ export function Header() {
               )}
             >
               <Phone className="h-4 w-4" />
-              +61 2 9267 8800
+              +1 (978) 641-4537
             </a>
             <Button
               asChild
@@ -155,11 +155,11 @@ export function Header() {
           </div>
           <div className="pt-4 mt-4 border-t border-border space-y-4">
             <a
-              href="tel:+61292678800"
+              href="tel:+19786414537"
               className="flex items-center gap-2 text-muted-foreground"
             >
               <Phone className="h-4 w-4" />
-              +61 2 9267 8800
+              +1 (978) 641-4537
             </a>
             <Button
               asChild

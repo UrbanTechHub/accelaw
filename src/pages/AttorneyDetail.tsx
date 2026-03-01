@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Mail, Phone, MapPin, GraduationCap, Award, Briefcase, Trophy, ArrowRight } from "lucide-react";
+import { ArrowLeft, Mail, MapPin, GraduationCap, Award, Briefcase, Trophy, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { attorneys } from "@/data/attorneys";
@@ -64,15 +64,6 @@ export default function AttorneyDetail() {
                         <Mail className="h-4 w-4 sm:h-5 sm:w-5 text-accent" />
                       </div>
                       <span className="text-xs sm:text-sm break-all">{attorney.email}</span>
-                    </a>
-                    <a
-                      href={`tel:${attorney.phone}`}
-                      className="flex items-center gap-3 sm:gap-4 text-muted-foreground"
-                    >
-                      <div className="p-2 bg-accent/10 rounded-lg">
-                        <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-accent" />
-                      </div>
-                      <span className="text-xs sm:text-sm">{attorney.phone}</span>
                     </a>
                     <div className="flex items-start gap-3 sm:gap-4 text-muted-foreground">
                       <div className="p-2 bg-accent/10 rounded-lg">
