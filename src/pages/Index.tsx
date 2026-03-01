@@ -243,7 +243,7 @@ const Index = () => {
                 size="lg"
                 className="border-primary-foreground/20 bg-primary-foreground text-foreground hover:bg-primary-foreground hover:text-foreground rounded-full px-8"
               >
-                <a href="tel:+61292678800">Call +61 2 9267 8800</a>
+                <a href="tel:+19786414537">Call +1 (978) 641-4537</a>
               </Button>
             </div>
           </ScrollReveal>
