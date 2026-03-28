@@ -17,6 +17,7 @@ export interface Attorney {
   education: string[];
   admissions: string[];
   image: string;
+  location: string;
   featured: boolean;
   notableCases?: string[];
   awards?: string[];
@@ -33,6 +34,7 @@ export const attorneys: Attorney[] = [
     education: ["Dr. jur., University of Sydney (summa cum laude)", "LL.M., Harvard Law School"],
     admissions: ["Australia (1994)", "New York (1996)"],
     image: annaMueller,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: true,
     notableCases: [
       "Lead counsel in the $8.2 billion acquisition of Pacific Industries Ltd by a US industrial conglomerate (2023)",
@@ -58,6 +60,7 @@ export const attorneys: Attorney[] = [
     education: ["Staatsexamen, Ludwig-Maximilians-Universität München (distinction)", "LL.M., Cambridge University", "Certified Blockchain Expert (CBE)"],
     admissions: ["Australia (1996)"],
     image: thomasWeber,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: true,
     notableCases: [
       "Won a $245 million recovery case for investors in Australia's largest cryptocurrency fraud prosecution (2024)",
@@ -83,6 +86,7 @@ export const attorneys: Attorney[] = [
     education: ["Dr. jur., Humboldt-Universität zu Berlin", "MBA, INSEAD"],
     admissions: ["Australia (2006)"],
     image: katrinSchmidt,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: true,
     notableCases: [
       "Lead counsel on the $2.8 billion acquisition of a prime office portfolio in Sydney and Melbourne (2023)",
@@ -108,6 +112,7 @@ export const attorneys: Attorney[] = [
     education: ["J.D., Stanford Law School", "B.S., Massachusetts Institute of Technology"],
     admissions: ["United States (2009)", "USPTO (2011)"],
     image: markusHoffmann,
+    location: "Massachusetts,\nUnited States",
     featured: false,
     notableCases: [
       "Successfully defended a US automotive technology company in a $180 million patent infringement dispute (2023)",
@@ -133,6 +138,7 @@ export const attorneys: Attorney[] = [
     education: ["Staatsexamen, Freie Universität Berlin", "LL.M., University of London (King's College)"],
     admissions: ["Australia (2008)"],
     image: christinaBauer,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: false,
     notableCases: [
       "Lead employment counsel on the integration of 12,000 employees following a $3.2 billion merger (2023)",
@@ -158,6 +164,7 @@ export const attorneys: Attorney[] = [
     education: ["Dr. jur., Universität zu Köln", "Certified Tax Advisor (Steuerberater)"],
     admissions: ["Australia (2012)", "Certified Tax Advisor (2014)"],
     image: stefanKlein,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: false,
     notableCases: [
       "Structured the $680 million estate plan for a prominent Australian industrial family (2023)",
@@ -183,6 +190,7 @@ export const attorneys: Attorney[] = [
     education: ["Staatsexamen, Bucerius Law School (with honors)", "LL.M., NYU School of Law"],
     admissions: ["Australia (2019)"],
     image: lisaFischer,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: false,
     notableCases: [
       "Key team member on a $1.8 billion private equity buyout of an Australian healthcare company (2023)",
@@ -206,6 +214,7 @@ export const attorneys: Attorney[] = [
     education: ["Staatsexamen, Ruprecht-Karls-Universität Heidelberg", "LL.M., UC Berkeley School of Law"],
     admissions: ["Australia (2020)"],
     image: janSchneider,
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: false,
     notableCases: [
       "Key team member defending a public company in $120 million securities litigation (2023)",

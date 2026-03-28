@@ -69,9 +69,8 @@ export default function AttorneyDetail() {
                       <div className="p-2 bg-accent/10 rounded-lg">
                         <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-accent" />
                       </div>
-                      <span className="text-xs sm:text-sm">
-                        Massachusetts,<br />
-                        United States
+                      <span className="text-xs sm:text-sm whitespace-pre-line">
+                        {attorney.location}
                       </span>
                     </div>
                   </div>
