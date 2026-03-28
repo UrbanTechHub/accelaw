@@ -99,7 +99,7 @@ export const attorneys: Attorney[] = [
     ]
   },
   {
-    id: "markus-hoffmann",
+    id: "jeff-brian",
     name: "Jeff Brian",
     title: "Partner",
     practiceAreas: ["Intellectual Property", "Technology"],
@@ -110,14 +110,14 @@ export const attorneys: Attorney[] = [
     image: markusHoffmann,
     featured: false,
     notableCases: [
-      "Successfully defended an Australian automotive technology company in a $180 million patent infringement dispute (2023)",
+      "Successfully defended a US automotive technology company in a $180 million patent infringement dispute (2023)",
       "Advised on the IP aspects of a $450 million technology company acquisition (2022)",
       "Won a landmark trade secret case protecting proprietary AI algorithms valued at $95 million (2021)",
-      "Negotiated a $120 million cross-licensing agreement between Australian and US technology companies (2020)",
+      "Negotiated a $120 million cross-licensing agreement between major US technology companies (2020)",
       "Lead counsel in patent litigation resulting in a permanent injunction against a major competitor (2019)"
     ],
     awards: [
-      "Chambers Europe Band 2 Intellectual Property (2020-2024)",
+      "Chambers USA Band 2 Intellectual Property (2020-2024)",
       "IAM Patent 1000 - Recommended Individual",
       "Legal 500 Rising Star - Technology (2019)",
       "Managing IP Rising Star (2018)"
