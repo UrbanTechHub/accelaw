@@ -70,8 +70,8 @@ export default function AttorneyDetail() {
                         <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-accent" />
                       </div>
                       <span className="text-xs sm:text-sm">
-                        Level 5/101 Sussex Street<br />
-                        Sydney NSW 2000, Australia
+                        Massachusetts,<br />
+                        United States
                       </span>
                     </div>
                   </div>
