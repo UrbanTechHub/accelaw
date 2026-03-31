@@ -103,26 +103,26 @@ export const attorneys: Attorney[] = [
     ]
   },
   {
-    id: "jeff-brian",
-    name: "Jeff Brian",
+    id: "geoff-stephens",
+    name: "Geoff Stephens",
     title: "Partner",
     practiceAreas: ["Intellectual Property", "Technology"],
-    email: "j.brian@accelawchambers.com",
-    bio: "Jeff Brian is a Partner and head of the Intellectual Property and Technology practice at Acce Law Chambers. With over 15 years of specialized experience, he has built one of the premier IP practices in the United States, advising technology companies, startups, and established enterprises on the full range of intellectual property matters. His expertise spans patent prosecution and litigation, trademark protection, trade secret disputes, licensing negotiations, and technology transactions. Jeff has a particular focus on the intersection of IP law and emerging technologies, including artificial intelligence, blockchain, and digital platforms. He regularly represents clients before the USPTO and in IP litigation before federal courts. Before joining Acce Law Chambers, Jeff spent three years at a leading Silicon Valley law firm, which gives him unique insight into the technology industry and cross-border IP matters. He is a sought-after advisor for tech startups seeking to protect their innovations and scale globally.",
-    education: ["J.D., Stanford Law School", "B.S., Massachusetts Institute of Technology"],
-    admissions: ["United States (2009)", "USPTO (2011)"],
+    email: "g.stephens@accelawchambers.com",
+    bio: "Geoff Stephens is a Partner and head of the Intellectual Property and Technology practice at Acce Law Chambers. With over 15 years of specialized experience, he has built one of the premier IP practices in Australia, advising technology companies, startups, and established enterprises on the full range of intellectual property matters. His expertise spans patent prosecution and litigation, trademark protection, trade secret disputes, licensing negotiations, and technology transactions. Geoff has a particular focus on the intersection of IP law and emerging technologies, including artificial intelligence, blockchain, and digital platforms. He regularly represents clients before Australian IP offices and in IP litigation before federal courts. Before joining Acce Law Chambers, Geoff spent three years at a leading international law firm, which gives him unique insight into the technology industry and cross-border IP matters. He is a sought-after advisor for tech startups seeking to protect their innovations and scale globally.",
+    education: ["LL.B., University of Sydney (Honours)", "LL.M., University of Melbourne"],
+    admissions: ["Australia (2009)"],
     image: markusHoffmann,
-    location: "Massachusetts,\nUnited States",
+    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
     featured: false,
     notableCases: [
-      "Successfully defended a US automotive technology company in a $180 million patent infringement dispute (2023)",
+      "Successfully defended an Australian automotive technology company in a $180 million patent infringement dispute (2023)",
       "Advised on the IP aspects of a $450 million technology company acquisition (2022)",
       "Won a landmark trade secret case protecting proprietary AI algorithms valued at $95 million (2021)",
-      "Negotiated a $120 million cross-licensing agreement between major US technology companies (2020)",
+      "Negotiated a $120 million cross-licensing agreement between major technology companies (2020)",
       "Lead counsel in patent litigation resulting in a permanent injunction against a major competitor (2019)"
     ],
     awards: [
-      "Chambers USA Band 2 Intellectual Property (2020-2024)",
+      "Chambers Asia-Pacific Band 2 Intellectual Property (2020-2024)",
       "IAM Patent 1000 - Recommended Individual",
       "Legal 500 Rising Star - Technology (2019)",
       "Managing IP Rising Star (2018)"
