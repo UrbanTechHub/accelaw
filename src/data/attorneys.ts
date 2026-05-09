@@ -104,15 +104,15 @@ export const attorneys: Attorney[] = [
   },
   {
     id: "geoff-stephens",
-    name: "Geoff Stephens",
+    name: "Jeff Brian",
     title: "Partner",
     practiceAreas: ["Intellectual Property", "Technology"],
     email: "g.stephens@accelawchambers.com",
-    bio: "Geoff Stephens is a Partner and head of the Intellectual Property and Technology practice at Acce Law Chambers. With over 15 years of specialized experience, he has built one of the premier IP practices in Australia, advising technology companies, startups, and established enterprises on the full range of intellectual property matters. His expertise spans patent prosecution and litigation, trademark protection, trade secret disputes, licensing negotiations, and technology transactions. Geoff has a particular focus on the intersection of IP law and emerging technologies, including artificial intelligence, blockchain, and digital platforms. He regularly represents clients before Australian IP offices and in IP litigation before federal courts. Before joining Acce Law Chambers, Geoff spent three years at a leading international law firm, which gives him unique insight into the technology industry and cross-border IP matters. He is a sought-after advisor for tech startups seeking to protect their innovations and scale globally.",
+    bio: "Jeff Brian is a Partner and head of the Intellectual Property and Technology practice at Acce Law Chambers. With over 15 years of specialized experience, he has built one of the premier IP practices in Australia, advising technology companies, startups, and established enterprises on the full range of intellectual property matters. His expertise spans patent prosecution and litigation, trademark protection, trade secret disputes, licensing negotiations, and technology transactions. Jeff Brian has a particular focus on the intersection of IP law and emerging technologies, including artificial intelligence, blockchain, and digital platforms. He regularly represents clients before Australian IP offices and in IP litigation before federal courts. Before joining Acce Law Chambers, Jeff Brian spent three years at a leading international law firm, which gives him unique insight into the technology industry and cross-border IP matters. He is a sought-after advisor for tech startups seeking to protect their innovations and scale globally.",
     education: ["LL.B., University of Sydney (Honours)", "LL.M., University of Melbourne"],
     admissions: ["Australia (2009)"],
     image: markusHoffmann,
-    location: "Level 5/101 Sussex Street\nSydney NSW 2000, Australia",
+    location: "United States",
     featured: false,
     notableCases: [
       "Successfully defended an Australian automotive technology company in a $180 million patent infringement dispute (2023)",
