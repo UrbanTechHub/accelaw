@@ -214,7 +214,7 @@ export const attorneys: Attorney[] = [
     education: ["J.D., Harvard Law School", "B.A., Georgetown University"],
     admissions: ["United States (2020)", "Massachusetts (2020)"],
     image: janSchneider,
-    location: "Massachusetts,\nUnited States",
+    location: "United States",
     featured: false,
     notableCases: [
       "Key team member defending a public company in $120 million securities litigation (2023)",
